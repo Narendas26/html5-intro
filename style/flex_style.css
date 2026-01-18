@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+}
+
+.container div{
+   border:2px solid gray;
+   height: 50px;
+   width: 200px;
+   font-size: 2em;
+}
+
+.box{
+    border:2px solid chocolate;
+    height: 150px;
+    width: 200px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    gap:50px;
+}
+
+.user{
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    font-size: 2em;
+}
+
+.user-container{
+    display: flex;
+    justify-content: center;
+}
+
+.user-container-1{
+    display: flex;
+    justify-content: space-around;  /*চারপাশে জায়গা ভাগ করে দেয়া*/
+}
+
+.user-container-2{
+    display: flex;
+    justify-content: space-between; /*মাঝখানে সমান করে জায়গা ভাগ করে দেয়া*/
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
