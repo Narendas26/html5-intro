@@ -1,0 +1,38 @@
+nav{
+    text-align: center;
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav li:hover{
+    background-color: chocolate;
+    transition: 1s;
+}
+
+#entrance_pic{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 2%;
+    height: 600px;
+}
+
+p{
+    text-align: justify;
+}
+
+.food_section_b b{
+    display: block;
+}
+
+footer{
+    text-align: center;
+}
