@@ -1,0 +1,13 @@
+h2,h4{
+    text-align: center;
+    color: coral;
+}
+
+.basic-info label{
+    display: block;
+    margin-top: 15px;
+}
+
+footer p{
+    text-align: center;
+}
