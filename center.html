@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Flex</title>
+    <style>
+
+            /*Parent Class*/
+           .container{
+            background-color: aquamarine;
+            display: flex;
+            width: 800px;
+            height:800px;
+            justify-content: center; /*horizontal center position*/
+            align-items:center;   /*Vertical Center Position*/
+           }
+
+           /*child Class*/
+           .box{
+              background-color: chocolate;
+              font-size:2em;
+              height: 200px;
+              width: 200px;
+              border: 2px solid black;
+           }
+
+           .container-1{
+              background-color: cornflowerblue;
+              width: 800px;
+              height:800px;
+              margin-top: 10px;
+              display: flex;
+              justify-content: center; /*horizontal center position*/
+              align-items:flex-start;   /*Vertical Center Position*/
+           }
+
+
+            .container-2{
+              background-color: cornflowerblue;
+              width: 800px;
+              height:800px;
+              margin-top: 10px;
+              display: flex;
+              justify-content: center; /*horizontal center position*/
+              align-items:flex-end;   /*Vertical Center Position*/
+           }
+
+           .container-3{
+              background-color: cornflowerblue;
+              width: 800px;
+              height:800px;
+              margin-top: 10px;
+              display: flex;
+              justify-content: center; /*horizontal center position*/
+              align-items:stretch;   /*Vertical Center Position*/
+           }
+
+
+           /*যদি চাইল্ড আইটেম এর ‍উচ্চতা না দেয়া হয় এবং প্যারেন্ট আইটেম এর মধ্যে align-items:stretch; দেয়া হয় তাহলে চাইল্ড আইটেম টা লম্বালম্বিভাবে পুরো প্যারেন্ট আইটেম জুড়ে থাকবে।*/
+
+           .box-1{
+              background-color: chocolate;
+              font-size:2em;
+              width: 200px;
+              border: 2px solid black;
+           }
+
+    </style>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="box">
+                Bangla
+            </div>
+
+             <div class="box">
+                English
+            </div>
+
+             <div class="box">
+                ICT
+            </div>
+        </div>
+
+        <div class="container-1">
+            <div class="box">
+                Physics
+            </div>
+
+             <div class="box">
+                Chemistry
+            </div>
+
+             <div class="box">
+                Biology
+            </div>
+        </div>
+
+
+         <div class="container-2">
+            <div class="box">
+                Math-1
+            </div>
+
+             <div class="box">
+                Math-2
+            </div>
+
+             <div class="box">
+                Math-3
+            </div>
+        </div>
+
+        <div class="container-3">
+             <div class="box-1">
+                Math-4
+            </div>
+        </div>
+
+</body>
+</html>
