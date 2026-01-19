@@ -1,0 +1,70 @@
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.card-section{
+    text-align: center;
+}
+
+.card-section h2{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#commitment{
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(142, 167, 170);
+}
+
+.card:hover{
+    background-color: rgb(164, 198, 221);
+    transition: 1s;
+}
+
+.card img{
+    width:100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.card p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h3{
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.card button{
+    background-color: violet;
+    padding: 8px 20px;
+    font-size:1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.card button:hover{
+    background-color: chocolate;
+    transition: 2s;
+}
+

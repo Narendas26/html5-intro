@@ -12,6 +12,7 @@ body{
     font-size: 1.25em;
     gap: 30px;
     border-radius: 25px;
+    font-family: cursive;
 }
 
 .banner button{
