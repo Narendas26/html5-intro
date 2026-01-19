@@ -1,0 +1,21 @@
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+nav li:hover{
+    background-color: cadetblue;
+    transition: 1s;
+}
