@@ -1,0 +1,54 @@
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.team_info{
+    text-align: center;
+}
+
+.team_info h2{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#commitment{
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_container{
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    width: 380px;
+    border:3px solid gray;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 10px 10px 10px rgb(142, 167, 170);
+}
+
+.card p{
+    text-align: justify;
+}
+
+.card:hover{
+    background-color: rgb(164, 198, 221);
+    transition: 1s;
+}
+
+.card img{
+    width:100%;
+    border-radius: 49%;
+    height:200px;
+}
+
+.card img:hover{
+    box-shadow: 10px 10px 12px rgba(10, 13, 224, 0.3);   /*box-shadow: h-offset v-offset blur spread color;*/
+}
+
+hr{
+    width:70%
+}
