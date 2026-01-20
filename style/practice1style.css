@@ -1,0 +1,11 @@
+#panda img{
+    width: 20%;
+    height: 400px;
+    margin-left: 0;
+}
+
+.input_area label{
+    display: block;
+    margin-top: 15px;
+}
+
