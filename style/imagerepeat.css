@@ -1,0 +1,52 @@
+#image_repeat{
+    width:100%;
+    height:500px;
+    background-color: cadetblue;
+    background-image: url(../images/ipad_image_test.jpg);
+    background-repeat: repeat;
+}
+
+#image_no_repeat{
+    width:100%;
+    height:500px;
+    background-color: cadetblue;
+    background-image: url(../images/ipad_image_test.jpg);
+    background-repeat: no-repeat;
+}
+
+#image_repeat-x{
+    width:100%;
+    height:500px;
+    background-color: cadetblue;
+    background-image: url(../images/ipad_image_test.jpg);
+    background-repeat: repeat-x;
+}
+
+
+#image_repeat-y{
+    width:100%;
+    height:500px;
+    background-color: cadetblue;
+    background-image: url(../images/ipad_image_test.jpg);
+    background-repeat: repeat-y;
+}
+
+#repeat-space{
+    width:100%;
+    height:500px;
+    background-color: cadetblue;
+    background-image: url(../images/ipad_image_test.jpg);
+    background-repeat: space;
+}
+
+#round{
+     width:100%;
+    height:500px;
+    background-color: cadetblue;
+    background-image: url(../images/ipad_image_test.jpg);
+    background-repeat: round;
+}
+
+
+
+
