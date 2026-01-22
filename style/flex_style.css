@@ -42,7 +42,7 @@
 
 .user-container-2{
     display: flex;
-    justify-content: space-between; /*মাঝখানে সমান করে জায়গা ভাগ করে দেয়া*/
+    justify-content: space-between; /*মাঝখানে সমান করে জায়গা ভাগ করে দেয়া এবং এলিমেন্ট গুলো একজন আরেকজন হতে সর্বোচ্চ দুরত্বে অবস্থান করা*/
 }
 
 .card-container{
